@@ -10,7 +10,7 @@ option = webdriver.ChromeOptions()
 option.add_argument("--incognito")
 
 #Internet explorer# browser = webdriver.ie(executable_path=C:\Users\mbrink\Desktop\IEDriverServer_Win32_3.9.0)
-browser = webdriver.Chrome(executable_path='/Users/matthewbrink/Documents/MattWebScraper/chromedriver', options=option)
+browser = webdriver.Chrome(executable_path='/Users/matt/github/chromedriver', options=option)
 
 
 
@@ -30,7 +30,7 @@ titles = [x.text for x in titles_element]
 # This is what the above would look like written as a normal FOR loop (the above is just cleaner):
 #titles = []
 #for x in titles_element:
-#        titles.append(x.text)
+#        titles.append(ax.text)
 
 print('titles:')
 print(titles)
