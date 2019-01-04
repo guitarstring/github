@@ -42,6 +42,6 @@ values = [x.text for x in values_element] # same concept as for-loop/list-compre
 print('values:')
 print(values, '\n')
 
-# test pair each title with its corresponding value using zip function and print each pair.
+# pair each title with its corresponding value using zip function and print each pair.
 for title, value in zip(titles, values):
     print(title + ': ' + value)
