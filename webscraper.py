@@ -37,7 +37,7 @@ print(titles)
 
 #get all of the financial values themselves
 values_element = browser.find_elements_by_xpath("//td[@class='Ta(end) Fw(b)']")
-values = [x.text for x in values_element] # same concept as for-loop/list-comprehension abaove
+values = [x.text for x in values_element] # same concept as for-loop/list-comprehension above
 
 print('values:')
 print(values, '\n')
